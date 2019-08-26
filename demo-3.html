@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ 
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <title>JP Portfolio Demo</title>
+ 
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+		<!--
+        <link rel="stylesheet" href="style.css">
+		-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+		<style>
+		.bg-blue {
+			background-color: #050d17;
+		}
+		.circuits {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75)),
+			url('images/circuit-1a.png');
+			
+		}
+		.jpk {
+			background-image: url('images/johnpaulkraus.png');
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+		
+		.sxn1 {
+			background-image: url('images/cello-3.png');
+			background-repeat: no-repeat;
+		}
+		.sxn2 {
+			background-image: url('images/circuit-3.png');
+			background-repeat: no-repeat;
+		}
+		.sxn3 {
+			background-image: url('images/cutegraycat.jpg');
+			background-repeat: no-repeat;
+			width: 100%;
+		}
+		.sxn4 {
+			background-image: url('images/cello-5.png');
+			background-repeat: no-repeat;
+		}
+		</style>
+        
+    </head>
+	
+	<body data-spy="scroll" data-target=".navbar" data-offset="50" class="bg-blue">
+	
+	<div class="jumbotron-fluid circuits">
+		
+		<div class="jpk">
+			 <img src="images/jp-logo.png" height="180">
+		</div>
+		
+	</div>
+	
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-center">
+	  <a class="navbar-brand" href="#">
+		<img src="images/jp-logo-light.png" alt="Logo" style="width:40px;">
+	  </a>	
+	  <ul class="navbar-nav">
+		<li class="nav-item">
+		  <a class="nav-link" href="#section1">Section 1</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#section2">Section 2</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#section3">Section 3</a>
+		</li>
+		<li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+			Section 4
+		  </a>
+		  <div class="dropdown-menu">
+			<a class="dropdown-item" href="#section41">Link 1</a>
+			<a class="dropdown-item" href="#section42">Link 2</a>
+		  </div>
+		</li>
+	  </ul>
+	</nav>
+	<div class="container">
+	<div class="card-deck">
+		<div class="card bg-primary">
+		  <img class="card-img-top" src="images/lifeguard.png" alt="Card image" style="width:100%">
+		  <div class="card-body text-center">
+			<p class="card-text">Some text inside the first card</p>
+			<p class="card-text">Some more text to increase the height</p>
+			<p class="card-text">Some more text to increase the height</p>
+			<p class="card-text">Some more text to increase the height</p>
+		  </div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+			<div class="card-body">
+			  <h4 class="card-title">John Doe</h4>
+			  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+			  <a href="#" class="btn btn-primary">See Profile</a>
+			</div>
+		</div>
+		<div class="card bg-warning">
+		  <img class="card-img-top" src="images/water-polo-icon.png" alt="Card image" style="width:100%">
+		  <div class="card-body text-center">
+			<p class="card-text">Some text inside the second card</p>
+		  </div>
+		</div>
+		<div class="card bg-success">
+		  <img class="card-img-top" src="images/baseball-icon.png" alt="Card image" style="width:100%">
+		  <div class="card-body text-center">
+			<p class="card-text">Some text inside the third card</p>
+		  </div>
+		</div>
+		<div class="card bg-danger">
+		  <img class="card-img-top" src="images/SCU-icon-black.png" alt="Card image" style="width:100%">
+		  <div class="card-body text-center">
+			<p class="card-text">Some text inside the fourth card</p>
+		  </div>
+		</div>  
+	</div>
+	</div>
+	<div class="container">
+  <h2>Cards Columns</h2>
+  <p>The .card-columns class creates a masonry-like grid of cards. The layout will automatically adjust as you insert more cards.</p>
+  <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
+  <div class="card-columns">
+    <div class="card bg-primary">
+	  <img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the first card</p>
+      </div>
+    </div>
+    <div class="card bg-warning">  
+	  <img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the second card</p>
+      </div>
+    </div>
+    <div class="card bg-success">
+	  <img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the third card</p>
+      </div>
+    </div>
+    <div class="card bg-danger">
+	  <img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the fourth card</p>
+      </div>
+    </div>  
+    <div class="card bg-light">
+	  <img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the fifth card</p>
+      </div>
+    </div>
+    <div class="card bg-info">
+	  <img class="card-img-top" src="images/bass-clef.png" alt="Card image" style="width:100%">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the sixth card</p>
+      </div>
+    </div>
+  </div>
+</div> 
+  
+
+	<div id="section1" class="container sxn1" style="padding-top:70px;padding-bottom:70px">
+	  <!--
+	  <h1>Section 1</h1>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	-->
+	</div>
+	<div id="section2" class="container sxn1" style="padding-top:70px;padding-bottom:70px">
+	  <!--
+	  <h1>Section 2</h1>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	-->
+	</div>
+	<div id="section3" class="container sxn1" style="padding-top:70px;padding-bottom:70px">
+	  <!--
+	  <h1>Section 3</h1>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	-->
+	</div>
+	<div id="section41" class="container sxn1" style="padding-top:70px;padding-bottom:70px">
+	  <!--
+	  <h1>Section 4 Submenu 1</h1>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	-->
+	</div>
+	<div id="section42" class="container sxn1" style="padding-top:70px;padding-bottom:70px">
+	  <!--
+	  <h1>Section 4 Submenu 2</h1>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	-->
+	</div>
+	
+		
+	</body>
+	
+</html>
